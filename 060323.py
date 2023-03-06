@@ -7,10 +7,9 @@
 #     print("Grade is valid.")
 # else:
 #     print("Grade invalid.")
-import math
 
-
-# test_techniques = ["Decision Table", "Equivalence Partitioning", "Statement Coverage", "Boundary Value Analysis", "State Transition Diagrams"]
+# test_techniques = ["Decision Table", "Equivalence Partitioning", "Statement Coverage", "Boundary Value Analysis",
+# "State Transition Diagrams"]
 #
 # for x in test_techniques:
 #     print(x)
@@ -24,8 +23,8 @@ import math
 #     a = a + 1
 #
 # [print(x) for x in test_techniques]
-
-
+#
+#
 # car_reg = ["NH72 GYR", "BH65 TRE", "P1 TTY", "V11 GSS", "JAG1", "ACD 765T"]
 # car_reg6 = []
 # for x in car_reg:
@@ -33,9 +32,9 @@ import math
 #         car_reg6.append(x)
 #
 # print(car_reg6)
-
-
-
+#
+#
+#
 # countries_in_Africa = ["Angola", "Nigeria", "Ghana", "Egypt", "Niger", "Kenya"]
 # countries_in_Africa.append("Chad")
 # print(countries_in_Africa)
@@ -51,7 +50,7 @@ import math
 #
 # countries_in_Africa.reverse()
 # print(countries_in_Africa)
-
+#
 
 # marbleColours = ("yellow", "green", "blue", "blue", "green", "blue")
 # print(marbleColours.count("blue"))
@@ -104,9 +103,6 @@ import math
 # years2 = {1988, 1977, 1966, 1981}
 # print(years2.union(years1))
 
-
-
-
 # phone = {
 #     "model": "iphone 14",
 #     "release_year": 2022,
@@ -120,8 +116,6 @@ import math
 #
 # x = phone.items()
 # print(x)
-
-
 
 # pub_fig ={
 #     "name": "Whoopi Goldberg",
@@ -139,8 +133,6 @@ import math
 # pub_fig.pop("profession")
 # print(pub_fig)
 
-
-
 # def areaCircle(x):
 #     return math.pi * (radius * radius)
 #
@@ -148,8 +140,6 @@ import math
 #
 # area = areaCircle(radius)
 # print(area)
-
-
 
 # def search_movies(movie):
 #     movie_list = ["Die Hard", "John Wick", "Kingsman"]
@@ -168,8 +158,5 @@ def search_list(guest):
         print(guest + ", you are on the list.")
     else:
         print(guest + ", you are not on the list.")
-
 name = input("Input name: ")
-
 search_list(name)
-
