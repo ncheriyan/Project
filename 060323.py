@@ -83,25 +83,29 @@
 # years2.difference_update(years1)
 # print(years2)
 # #Removes the data that is shared in both sets
-#
-# years1 = {1977, 1982, 1966}
-# years2 = {1988, 1977, 1966, 1981}
-# years2.intersection(years1)
-# print(years2)
-# #Returns the set of data shared in both sets
-#
-# years2.intersection_update(years1)
-# print(years2)
-# #Removes all the data that is not shared in both sets
-#
-# years1 = {1977, 1982, 1966}
-# years2 = {1988, 1977, 1966, 1981}
-# a = years2.issuperset(years1)
-# print(a)
-#
-# years1 = {1977, 1982, 1966}
-# years2 = {1988, 1977, 1966, 1981}
-# print(years2.union(years1))
+
+years1 = {1977, 1982, 1966}
+years2 = {1988, 1977, 1966, 1981}
+years_intsec = years2.intersection(years1)
+print(years_intsec)
+#Returns the set of data shared in both sets
+
+years2.intersection_update(years1)
+print(years2)
+#Removes all the data that is not shared in both sets
+
+years1 = {1977, 1982, 1966}
+years2 = {1988, 1977, 1966, 1981}
+a = years2.issuperset(years1)
+print(a)
+#Returns True is all the items in the set exist in the original set, otherwise  returns False
+
+years1 = {1977, 1982, 1966}
+years2 = {1988, 1977, 1966, 1981}
+b = years2.union(years1)
+print(b)
+#Returns a set that combines data in both sets together
+
 
 # phone = {
 #     "model": "iphone 14",
@@ -152,13 +156,13 @@
 #
 # search_movies(title)
 
-def search_list(guest):
-    guest_list = ["Matt", "Dan", "Amy", "James", "Laura", "Beth"]
-    if guest in guest_list:
-        print(guest + ", you are on the list.")
-    else:
-        print(guest + ", you are not on the list.")
-name = input("Input name: ")
-search_list(name)
+# def search_list(guest):
+#     guest_list = ["Matt", "Dan", "Amy", "James", "Laura", "Beth"]
+#     if guest in guest_list:
+#         print(guest + ", you are on the list.")
+#     else:
+#         print(guest + ", you are not on the list.")
+# name = input("Input name: ")
+# search_list(name)
 
 
