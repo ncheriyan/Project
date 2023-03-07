@@ -166,3 +166,20 @@ print(b)
 # search_list(name)
 
 
+
+
+
+
+
+
+# y = x["people"]
+# z = str(y)
+# a = z.replace(",", "(\n)")
+# b = a.replace("[","")
+# c = b.replace(")", "")
+# d = c.replace("'", "")
+# e = d.replace("(", "")
+# f = e.replace("{","")
+# g = f.replace("}", "")
+# h = g.replace("]", "")
+# print(h)
